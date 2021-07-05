@@ -1,0 +1,15 @@
+$dark: #0A1133;
+$grey: #7D8194;
+$orange: #FE5C39;
+$blue: #66A8F0;
+$white: #ffffff;
+$bg1: #F5F5F5;
+$bg2: #DEE8F0;
+
+@mixin font_base($size, $weight, $lineheight) {
+    font: {
+        size: $size;
+        weight: $weight;
+    }
+    line-height: $lineheight;
+}
