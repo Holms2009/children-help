@@ -1,4 +1,6 @@
+@import 'variables';
 @import 'header';
+@import 'top-slider';
 
 * {
     font-family: "Montserrat", sans-serif;
@@ -7,4 +9,10 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: $white;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
 }
